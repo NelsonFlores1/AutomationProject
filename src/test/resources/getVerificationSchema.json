@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Id": {
+      "type": "integer"
+    },
+    "Content": {
+      "type": "string"
+    },
+    "ItemType": {
+      "type": "integer"
+    },
+    "Checked": {
+      "type": "boolean"
+    },
+    "ProjectId": {
+      "type": "null"
+    },
+    "ParentId": {
+      "type": "null"
+    },
+    "Path": {
+      "type": "string"
+    },
+    "Collapsed": {
+      "type": "boolean"
+    },
+    "DateString": {
+      "type": "null"
+    },
+    "DateStringPriority": {
+      "type": "integer"
+    },
+    "DueDate": {
+      "type": "string"
+    },
+    "Recurrence": {
+      "type": "null"
+    },
+    "ItemOrder": {
+      "type": "null"
+    },
+    "Priority": {
+      "type": "integer"
+    },
+    "LastSyncedDateTime": {
+      "type": "string"
+    },
+    "Children": {
+      "type": "array",
+      "items": {}
+    },
+    "DueDateTime": {
+      "type": "null"
+    },
+    "CreatedDate": {
+      "type": "string"
+    },
+    "LastCheckedDate": {
+      "type": "null"
+    },
+    "LastUpdatedDate": {
+      "type": "string"
+    },
+    "Deleted": {
+      "type": "boolean"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "InHistory": {
+      "type": "boolean"
+    },
+    "SyncClientCreationId": {
+      "type": "null"
+    },
+    "DueTimeSpecified": {
+      "type": "boolean"
+    },
+    "OwnerId": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Id",
+    "Content",
+    "ItemType",
+    "Checked",
+    "ProjectId",
+    "ParentId",
+    "Path",
+    "Collapsed",
+    "DateString",
+    "DateStringPriority",
+    "DueDate",
+    "Recurrence",
+    "ItemOrder",
+    "Priority",
+    "LastSyncedDateTime",
+    "Children",
+    "DueDateTime",
+    "CreatedDate",
+    "LastCheckedDate",
+    "LastUpdatedDate",
+    "Deleted",
+    "Notes",
+    "InHistory",
+    "SyncClientCreationId",
+    "DueTimeSpecified",
+    "OwnerId"
+  ]
+}
