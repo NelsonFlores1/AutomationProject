@@ -97,8 +97,6 @@ public class CreateProjectTest {
                 .log().all()
                 .statusCode(200); // code verification
 
-        // para hacer el esquema ver la clase 24 de noviembre 1:06:00
-        // para hacer la integracion en Jenkins ver la claase 6 de diciembre
     }
 
 }

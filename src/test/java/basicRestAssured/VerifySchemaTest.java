@@ -111,9 +111,6 @@ public class VerifySchemaTest {
                 .statusCode(200) // code verification
                 .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("getTokenVerificationSchema.json").using(schemaFactory));
 
-
-        // para hacer el esquema ver la clase 24 de noviembre 1:06:00
-        // para hacer la integracion en Jenkins ver la claase 6 de diciembre
     }
 
 }
